@@ -21,7 +21,7 @@ spec:
     spec:
        containers:
        - name: catlog-service
-         image: pathandawood/catlog
+         image: pathandawood/catlog-service:2
          imagePullPolicy: Always
          ports:
          - containerPort: 80
